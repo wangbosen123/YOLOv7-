@@ -1,5 +1,5 @@
 # YOLOv7-官方文件執行說明檔  
-1. 先開啟CMD視窗，進入你要的資料夾指令 cd + 資料夾位置  
+1. 先開啟Anaconda Prompt視窗，進入你要的資料夾指令 cd + 資料夾位置  
 2. 如何git clone YOLOv7 的官方文件指指令: git clone https://github.com/WongKinYiu/yolov7  
 ![克隆過程圖片](https://github.com/wangbosen123/YOLOv7-/blob/main/image.png)  
 完成以上將可以把官方所需要的檔案全部下載至目標檔案。  
@@ -14,8 +14,8 @@
    2. cd weights  
    ![建立權重的資料夾](https://github.com/wangbosen123/YOLOv7-/blob/main/%E5%BB%BA%E7%AB%8B%E6%AC%8A%E9%87%8D%E8%B3%87%E6%96%99%E9%9B%86.png)  
 
-在 CMD 上面執行 train 的指令:   
-在 CMD 上面執行 inference 的指令 :  
+在 Anaconda Prompt 上面執行 train 的指令:   
+在 Anaconda Prompt 上面執行 inference 的指令 :  
 
 
 
