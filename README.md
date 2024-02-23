@@ -9,7 +9,10 @@
    2.pip install -r requirements.txt  
 ![環境安裝](https://github.com/wangbosen123/YOLOv7-/blob/main/%E7%92%B0%E5%A2%83%E5%AE%89%E8%A3%9D.png)  
 
-4.接著要建立一個文件夾，這個文件夾要裝官方預訓練過的yolov7模型，**預先訓練過的模型權重有較好的初始(預先訓練很重要)**，接續任務中可以模型可以較快的收斂以及較佳的結果
+4.接著要建立一個文件夾，這個文件夾要裝官方預訓練過的yolov7模型，**預先訓練過的模型權重有較好的初始(預先訓練很重要)**，接續任務中可以模型可以較快的收斂以及較佳的結果，指令:  
+   1.mkdir weights
+   2. cd weights  
+   ![建立權重的資料夾](https://github.com/wangbosen123/YOLOv7-/blob/main/%E5%BB%BA%E7%AB%8B%E6%AC%8A%E9%87%8D%E8%B3%87%E6%96%99%E9%9B%86.png)
 
 在 CMD 上面執行 train 的指令:   
 在 CMD 上面執行 inference 的指令 :  
