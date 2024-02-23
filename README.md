@@ -14,7 +14,7 @@
    2. cd weights  
    ![建立權重的資料夾](https://github.com/wangbosen123/YOLOv7-/blob/main/%E5%BB%BA%E7%AB%8B%E6%AC%8A%E9%87%8D%E8%B3%87%E6%96%99%E9%9B%86.png)
 6. 在官方github 下載預先訓練的模型權重至建立好的weights資料夾底下
-   網址1: https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7_training.pt
+   網址1: https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7_training.pt  
    網址2: https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt  
    ![下載預先訓練模型的權重](https://github.com/wangbosen123/YOLOv7-/blob/main/%E4%B8%8B%E8%BC%89%E9%A0%90%E5%85%88%E8%A8%93%E7%B7%B4%E6%A8%A1%E5%9E%8B%E7%9A%84%E6%AC%8A%E9%87%8D.png)
 在 Anaconda Prompt 上面執行 train 的指令:   
