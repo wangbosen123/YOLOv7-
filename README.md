@@ -48,7 +48,7 @@ python train.py --weights weights/yolov7_training.pt --cfg cfg/training/yolov7-H
 --cfg 讀取有關訓練細節相關資訊的文件  
 --data 讀取有關訓練資料相關資訊的文件  
 --device 取用顯示卡推薦使用一個就好，使用兩個電腦會過熱當機  
--- batch-size 批次的數量，需要能整除的訓練總數
+-- batch-size 批次的數量，需要能整除的訓練總數  
 -- epoch 所有資料經過模型訓練的總次數  
 
 
