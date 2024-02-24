@@ -15,6 +15,7 @@
    網址1: https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7_training.pt  
    網址2: https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt  
    ![下載預先訓練模型的權重](https://github.com/wangbosen123/YOLOv7-/blob/main/%E4%B8%8B%E8%BC%89%E9%A0%90%E5%85%88%E8%A8%93%E7%B7%B4%E6%A8%A1%E5%9E%8B%E7%9A%84%E6%AC%8A%E9%87%8D.png)
+6. 嘗試用下載下來的權重對官方給的圖像進行測試
 在 Anaconda Prompt 上面執行 train 的指令:   
 在 Anaconda Prompt 上面執行 inference 的指令 :  
 
