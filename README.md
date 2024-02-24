@@ -20,7 +20,7 @@
    --source inference/images   # 傳進去要偵測的圖片 
    --save-txt   #偵測圖片bounding box 座標  
    ![執行測試](https://github.com/wangbosen123/YOLOv7-/blob/main/%E5%9F%B7%E8%A1%8C%E6%B8%AC%E8%A9%A6.png)
-   ##測試結果
+   ## 測試結果(有加入--save-txt 才會有labels的資料夾)
    ![測試結果](https://github.com/wangbosen123/YOLOv7-/blob/main/%E6%B8%AC%E8%A9%A6%E7%B5%90%E6%9E%9C.png)
 在 Anaconda Prompt 上面執行 train 的指令:   
 在 Anaconda Prompt 上面執行 inference 的指令 :  
