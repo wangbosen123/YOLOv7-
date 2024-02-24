@@ -30,6 +30,17 @@
 ## 建立YOLOv7 所需要的資料集  
 程式碼在prepare_data.py  
 
+## 建立pytorch環境
+pytorch-gpu 安裝:  
+"cuda, cudnn 安裝方式":  
+https://blog.csdn.net/weixin_42496865/article/details/124002488  
+
+"pytorch, torchvision, torchaudio 安裝方式":  
+https://pytorch.org/get-started/previous-versions/  
+命令為:pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113  
+"可能遇到多線程的問題":  
+解決方式為在主程式前面加上，os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'  
+
 ## Training 細節
 在 Anaconda Prompt 上面執行 train 的指令:  
 python train.py --weights weights/yolov7_training.pt --cfg cfg/training/yolov7-Helmet.yaml --data data/Helmet.yaml --device 0,1 --batch-size 64 --epoch 10  
