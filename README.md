@@ -15,7 +15,12 @@
    網址1: https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7_training.pt  
    網址2: https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt  
    ![下載預先訓練模型的權重](https://github.com/wangbosen123/YOLOv7-/blob/main/%E4%B8%8B%E8%BC%89%E9%A0%90%E5%85%88%E8%A8%93%E7%B7%B4%E6%A8%A1%E5%9E%8B%E7%9A%84%E6%AC%8A%E9%87%8D.png)
-6. 嘗試用下載下來的權重對官方給的圖像進行測試
+6. 嘗試用下載下來的權重對官方給的圖像進行測試，其中
+   --weights weight/yolov7.pt   # 这个参数是把已经训练好的模型路径传进去，就是刚刚下载的文件  
+   --source inference/images   # 传进去要预测的图片
+   --save-txt #偵測圖片bounding box 座標
+   ![執行測試](https://github.com/wangbosen123/YOLOv7-/blob/main/%E5%9F%B7%E8%A1%8C%E6%B8%AC%E8%A9%A6.png)
+   
 在 Anaconda Prompt 上面執行 train 的指令:   
 在 Anaconda Prompt 上面執行 inference 的指令 :  
 
