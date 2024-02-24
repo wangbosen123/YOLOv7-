@@ -38,7 +38,7 @@ https://blog.csdn.net/weixin_42496865/article/details/124002488
 "pytorch, torchvision, torchaudio 安裝方式":  
 https://pytorch.org/get-started/previous-versions/  
 命令為:pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113  
-"可能遇到多線程的問題":  
+"可能遇到多線程的問題"(訓練模型時如果遇到workers的問題加入以下程式碼在train.py裡面主程式的部分便可以解決):  
 解決方式為在主程式前面加上，os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'  
 
 ## Training 細節
