@@ -30,7 +30,8 @@
 ## 建立YOLOv7 所需要的資料集  
 程式碼在prepare_data.py  
 
-## 建立pytorch環境
+
+## training前需要先建立pytorch環境
 pytorch-gpu 安裝:  
 "cuda, cudnn 安裝方式":  
 https://blog.csdn.net/weixin_42496865/article/details/124002488  
@@ -40,6 +41,17 @@ https://pytorch.org/get-started/previous-versions/
 命令為:pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113  
 "可能遇到多線程的問題"(訓練模型時如果遇到workers的問題加入以下程式碼在train.py裡面主程式的部分便可以解決):  
 解決方式為在主程式前面加上，os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'  
+如果遇到其他沒有安裝的套件就pip install 目標套件  這樣及可以順利安裝  
+
+## training 前必須先配置模型文件  
+第一步: 複製yolov7.yaml 文件到相同的路徑下，命名成你想要偵測專案的名稱。  
+第二步: 打開以上文件，進行下圖所示的修改，這裡修改的地方只有一處，就是把nc修改為我們資料集的目標總數集可，然後儲存。  
+![執行測試](https://github.com/wangbosen123/YOLOv7-/blob/main/%E9%85%8D%E7%BD%AE%E6%A8%A1%E5%9E%8B%E6%96%87%E4%BB%B6.png)  
+
+## training 前必須先配置資料集文件  
+第一步: 複製coco.yaml檔案到相同的路徑下，命名成你想要偵測專案的名稱。  
+第二步: 打開以上文件，進行下圖所示的修改，需要修改的地方為5處。 第一個：把程式碼自動下載COCO資料集的指令註解掉，以防程式碼自動下載資料集佔用記憶體；第二處：修改train的位置為train_list.txt的路徑；第三處：修改val的位置為 val_list.txt的路徑；第四處：修改nc為資料集目標總數；第五處：修改names為資料集所有目標的名稱。 然後儲存。  
+![執行測試](https://github.com/wangbosen123/YOLOv7-/blob/main/%E9%85%8D%E7%BD%AE%E8%B3%87%E6%96%99%E9%9B%86%E6%96%87%E4%BB%B6.png)  
 
 ## Training 細節
 在 Anaconda Prompt 上面執行 train 的指令:  
@@ -50,6 +62,8 @@ python train.py --weights weights/yolov7_training.pt --cfg cfg/training/yolov7-H
 --device 取用顯示卡推薦使用一個就好，使用兩個電腦會過熱當機  
 -- batch-size 批次的數量，需要能整除的訓練總數  
 -- epoch 所有資料經過模型訓練的總次數  
+
+
 
 
 
