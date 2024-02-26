@@ -66,7 +66,42 @@ python train.py --weights weights/yolov7_training.pt --cfg cfg/training/yolov7-H
 -- epoch 所有資料經過模型訓練的總次數  
 以下在yolov7 train.py 裡面還有許多參數可以設定例如:  
 ![訓練參數設定](https://github.com/wangbosen123/YOLOv7-/blob/main/train_parameters.png)  
+在train 結束後，模型會自動儲存最好一次epoch的模型權重，以及各個階段模型的權重，也存了其他的文件，如下圖所示:  
 
+## Training 數據圖大致講解  
+### 1.首先要先介紹在YOLOv7內部的cofunsion matrix 他跟我們平常理解的不太一樣，  
+左上角代表真實標籤是腫瘤，預測出來也為腫瘤的機率。  
+左下角代表真實標籤是腫瘤，預測出來沒有東西(代表背景)的機率。  
+右上角代表在背景中有框出腫瘤，只有有框出來這邊的數字就為1，因為總共被框出來的背景有n張，同時被框出腫瘤也為n張。  
+右下角代表真實是背景卻預測腫瘤，同時也代表真實是腫瘤但卻沒有預測腫瘤，兩者無交集機率為0。  
+如下圖所示:  
+![confusion matrix](https://github.com/wangbosen123/YOLOv7-/blob/main/confusion_matrix.png)  
+
+## F1 score  
+F1分數，他被定義為Precision以及Recall的調和平均數，最大為1，最小為0，以以下圖為例，可以得知在confidence score = 0.603，則模型在validation datasets 上有較好的成績。  
+![F1 score](https://github.com/wangbosen123/YOLOv7-/blob/main/f1_score.png)  
+
+## loss curve  
+這邊的損失函數曲線圖是針對訓練以及測試呈現，其中  
+box: 回歸損失，針對預測的bounding box以及正確答案的bounding box的差異。  
+objectness: 推測偵測框中對物體偵測有無的分類損失。  
+classification: 種類的分類損失，因為我們做的是單分類，所以沒有這個損失。  
+![loss curve](https://github.com/wangbosen123/YOLOv7-/blob/main/loss_curve.png)   
+
+## PR curve  
+PR 曲線中P代表的precision，R代表的是Recall，他們倆著之間是一個矛盾的性能指標，及一個值越高，另一個值越低;  
+提高Precision(TP/(TP+FP)) >> 則FP越小  
+提高Recall(TP/(TP+FN)) >> 則FN越小  
+![PR curve](https://github.com/wangbosen123/YOLOv7-/blob/main/PR_curve.png)  
+
+## Test prediction  
+左圖為test label 右圖為最後模型針對testing data 做的預測。  
+![Test prediction](https://github.com/wangbosen123/YOLOv7-/blob/main/test_prediction.png)  
+
+
+
+
+## inference (detect.py) 參數說明  
 
 
 
