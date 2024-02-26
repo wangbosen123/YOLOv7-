@@ -64,6 +64,8 @@ python train.py --weights weights/yolov7_training.pt --cfg cfg/training/yolov7-H
 --device 取用顯示卡推薦使用一個就好，使用兩個電腦會過熱當機  
 -- batch-size 批次的數量，需要能整除的訓練總數  
 -- epoch 所有資料經過模型訓練的總次數  
+以下在yolov7 train.py 裡面還有許多參數可以設定例如:  
+![訓練參數設定](https://github.com/wangbosen123/YOLOv7-/blob/main/train_parameters.png)  
 
 
 
