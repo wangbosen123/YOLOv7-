@@ -94,14 +94,18 @@ PR 曲線中P代表的precision，R代表的是Recall，他們倆著之間是一
 提高Recall(TP/(TP+FN)) >> 則FN越小  
 ![PR curve](https://github.com/wangbosen123/YOLOv7-/blob/main/PR_curve.png)  
 
-## Test prediction  
+## val prediction  
 左圖為test label 右圖為最後模型針對testing data 做的預測。  
 ![Test prediction](https://github.com/wangbosen123/YOLOv7-/blob/main/test_prediction.png)  
 
 
-
-
 ## inference (detect.py) 參數說明  
+前面有說明到執行inference 的指令這邊多介紹幾個之後會調整到的參數:  
+--weights以及--source 是前面介紹過的  
+--img-size 代表你要測試的圖像你需要到縮小放大的尺寸。  
+--conf-thres 可以根據f1 score 的最高點來進行設置。  
+--save-txt 之後都必須加上這個，因為需要將預測的座標點儲存起來方便後續評估。  
+![detect parameters](https://github.com/wangbosen123/YOLOv7-/blob/main/detect%20parameter.png)  
 
 
 
