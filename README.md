@@ -28,6 +28,8 @@
    ![測試結果](https://github.com/wangbosen123/YOLOv7-/blob/main/%E6%B8%AC%E8%A9%A6%E7%B5%90%E6%9E%9C.png)
 
 ## 建立YOLOv7 所需要的資料集  
+資料集的編排方式如下:  
+![資料格式](https://github.com/wangbosen123/YOLOv7-/blob/main/dataform.png)  
 程式碼在prepare_data.py  
 
 
