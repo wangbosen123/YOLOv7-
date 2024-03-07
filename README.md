@@ -20,10 +20,13 @@
 ## 基於腫瘤空間的評估 
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/7a84c92d-8934-40e6-b425-08e563bec239)  
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/7cbcf541-5687-45b6-9d66-98c057828669)  
+
+## 資料分布  
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/883e9691-af16-4680-afb2-f58e2ea81689)  
 
-#基於
+## 視覺化呈現結果  
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/759d7b7d-469c-4923-b077-f56f4c82a20d)  
+
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/0e56f3af-bc58-4cb5-b4bd-148845430874)  
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/a78cb11b-fe74-4cfa-b6fe-3edcd9cc3921)  
 
