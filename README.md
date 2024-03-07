@@ -1,3 +1,42 @@
+# YOLOv7 based Automation For Parotid Tumor Detection
+![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/5519369f-2164-466d-bebd-e352ce88b922)  
+![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/607c9fc3-3b57-4494-92be-6f8ee5437364)  
+![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/5f3b8795-70b8-4995-ae51-733468151923)  
+![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/f47d377c-e077-49e5-90ce-df18de63aa49)  
+![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/a4ac3755-9d53-405f-83ff-490679619545)  
+![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/6b502161-a96f-4a18-9aca-04525c8d801c)  
+![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/34c07a8e-add3-4e63-8e07-acdb8230f572)  
+![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/bd2f522d-f122-4530-85f2-620323abd507)  
+![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/2a85226e-386a-4be9-87e6-5bd1e8b083ad)  
+![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/7a84c92d-8934-40e6-b425-08e563bec239)  
+![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/7cbcf541-5687-45b6-9d66-98c057828669)  
+![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/883e9691-af16-4680-afb2-f58e2ea81689)  
+![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/759d7b7d-469c-4923-b077-f56f4c82a20d)  
+![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/0e56f3af-bc58-4cb5-b4bd-148845430874)  
+![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/a78cb11b-fe74-4cfa-b6fe-3edcd9cc3921)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # YOLOv7-官方文件執行說明檔  
 ## 建立YOLOv7 所需要的環境以及資料  
 先開啟Anaconda Prompt視窗，進入你要的資料夾指令 cd + 資料夾位置  
