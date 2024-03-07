@@ -5,9 +5,11 @@
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/607c9fc3-3b57-4494-92be-6f8ee5437364)  
 ## 範例  
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/5f3b8795-70b8-4995-ae51-733468151923)  
-
+## 評估準則  
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/f47d377c-e077-49e5-90ce-df18de63aa49)  
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/a4ac3755-9d53-405f-83ff-490679619545)  
+
+## 基於切片空間的評估  
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/6b502161-a96f-4a18-9aca-04525c8d801c)  
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/34c07a8e-add3-4e63-8e07-acdb8230f572)  
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/bd2f522d-f122-4530-85f2-620323abd507)  
