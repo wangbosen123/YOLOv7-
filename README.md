@@ -1,7 +1,11 @@
-# YOLOv7 based Automation For Parotid Tumor Detection
+# YOLOv7 based Automation For Parotid Tumor Detection  
+## 資料前處理  
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/5519369f-2164-466d-bebd-e352ce88b922)  
+## 模型架構  
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/607c9fc3-3b57-4494-92be-6f8ee5437364)  
+## 範例  
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/5f3b8795-70b8-4995-ae51-733468151923)  
+
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/f47d377c-e077-49e5-90ce-df18de63aa49)  
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/a4ac3755-9d53-405f-83ff-490679619545)  
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/6b502161-a96f-4a18-9aca-04525c8d801c)  
