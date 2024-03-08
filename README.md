@@ -89,7 +89,7 @@
 ## training前需要先建立pytorch環境
 pytorch-gpu 安裝:  
 "cuda, cudnn 安裝方式":  
-https://blog.csdn.net/weixin_42496865/article/details/124002488  
+https://blog.csdn.net/m0_53817749/article/details/124309057    
 
 "pytorch, torchvision, torchaudio 安裝方式":  
 https://pytorch.org/get-started/previous-versions/  
