@@ -1,4 +1,4 @@
-## 建立pytorch GPU環境  
+# 建立pytorch GPU環境  
 ### 1.在開始輸入nvidia 進入nvidia控制面板點開系統資訊在對應欄位可以看到電腦所需的CUDA版本，電腦的CUDA支持版本，是向下兼容的，也就是我們可以安裝<=我们電腦支持版本的CUDA。
 ![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/946aafc3-5ffd-4af3-bb05-4ff6bd5854d4)  
 ### 2.進入連結下載CUDA: https://developer.nvidia.com/cuda-toolkit-archive  
