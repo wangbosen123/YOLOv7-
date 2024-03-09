@@ -33,24 +33,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # YOLOv7-官方文件執行說明檔  
 ## 建立YOLOv7 所需要的環境以及資料  
 先開啟Anaconda Prompt視窗，進入你要的資料夾指令 cd + 資料夾位置  
@@ -86,14 +68,15 @@
 程式碼在prepare_data.py  
 
 
-## training前需要先建立pytorch環境
-pytorch-gpu 安裝:  
-"cuda, cudnn 安裝方式":  
-https://blog.csdn.net/m0_53817749/article/details/124309057    
+## training前需要先建立pytorch環境  
+### 1.在開始輸入nvidia 進入nvidia控制面板點開系統資訊在對應欄位可以看到電腦所需的CUDA版本，電腦的CUDA支持版本，是向下兼容的，也就是我們可以安裝<=我们電腦支持版本的CUDA。
+![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/946aafc3-5ffd-4af3-bb05-4ff6bd5854d4)  
+### 2.進入連結下載CUDA: https://developer.nvidia.com/cuda-toolkit-archive  
+![image](https://github.com/wangbosen123/YOLOv7-/assets/92494937/e41c5f6b-8fb4-4546-85ba-fc4ccb93e5f6)  
 
-"pytorch, torchvision, torchaudio 安裝方式":  
-https://pytorch.org/get-started/previous-versions/  
-命令為:pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113  
+
+
+
 "可能遇到多線程的問題"(訓練模型時如果遇到workers的問題加入以下程式碼在train.py裡面主程式的部分便可以解決):  
 解決方式為在主程式前面加上，os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'  
 如果遇到其他沒有安裝的套件就pip install 目標套件  這樣及可以順利安裝  
